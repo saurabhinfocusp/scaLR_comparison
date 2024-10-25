@@ -10,7 +10,7 @@ You will need to edit below variables in the scripts while running, example belo
 2. train_data_path = f'path/to/train.h5ad'
 3. test_data_path = f'path/to/test.h5ad'
 4. store_results_path = f'path/to/results_directory'
-5. scale = True|False -# whether to scale the data or not.
+5. scale = True|False # whether to scale the data or not.
 
 
 Example command to run the scripts
