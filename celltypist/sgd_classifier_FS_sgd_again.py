@@ -9,10 +9,9 @@ import os
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
 target = 'cell_type'
-dataset_name = 'pbmc_120k_3500_sgd'
-train_data_path = f'/home/biocusp/data/{dataset_name}/{target}/train.h5ad'
-test_data_path = f'/home/biocusp/data/{dataset_name}/{target}/test.h5ad'
-store_results_path = f'/home/anand/single_cell_classification/{dataset_name}/{target}'
+train_data_path = f'path/to/train.h5ad'
+test_data_path = f'path/to/test.h5ad'
+store_results_path = f'path/to/results_directory'
 
 if not os.path.exists(store_results_path):
     os.makedirs(store_results_path, exist_ok=True)
